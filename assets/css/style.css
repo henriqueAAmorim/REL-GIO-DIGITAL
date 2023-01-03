@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(120deg, #00215ad8, #38d6f2da);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 1100px;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.relogio div {
+    height: 340px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, 0.9);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+
+.relogio span {
+    font-size: 120px;
+}
+
+#horas {
+    font-weight: bolder;
+}
+
+#minutos {
+    font-weight: bolder;
+}
+
+#segundos {
+    font-weight: bolder;
+}
+
+.relogio span.tempo{
+    font-size: 40px;
+}
