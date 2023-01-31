@@ -2,6 +2,18 @@ const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
+const carrocel = document.getElementById('carrocel');
+const imagens = document.getElementsByTagName('img');
+const currentIndex = 0; //1
+
+function changeImage() {
+    imagens[currentIndex].classList.remove('active'); //2
+    currentIndex = (currentIndex + 1) % imagens.length;//3
+    imagens[currentIndex].classList.add('active');//4
+}
+
+setInterval(changeImage, 3000);
+
 /*
 const relogio = setInterval(function time() {
     let dateToday = new Date();
@@ -37,3 +49,4 @@ const relogio = setInterval(function time() {
     segundos.textContent = seg;
 
 })
+
