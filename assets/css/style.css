@@ -61,3 +61,10 @@ body {
     font-size: 40px;
     color: aquamarine;
 }
+
+img.active {
+    display: block;
+}
+img {
+    display: none;
+}
