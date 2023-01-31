@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
-    margin: 30;
+    margin: 0;
     padding: 0;
     font-family: 'Bebas Neue', cursive;
 }
 
 body {
-    /*height: 100vh;*/
+    height: 100vh;
     background: linear-gradient(120deg, #00215ad8, #38d6f2da);
     display: flex;
     align-items: center;
